@@ -1,0 +1,92 @@
+.main_container{
+    background-color:#003b95 ;
+    display: flex;
+    justify-content: space-between;
+border-radius: 15px 15px 15px 15px;
+    
+    
+}
+
+.mid_container{
+   display: flex;
+}
+
+.he{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropbtn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 15px;
+
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(202, 202, 202);
+    transition: 0.4s;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .buttonin button {
+    background-color: white;
+    padding: 16px 15px;
+    font-size: 16px;
+    border: none;
+    margin: 20px 15px;
+  }
+
+  .buttonin :hover{
+    background-color: rgb(202, 202, 202);
+  }
+
+  .photoit img{
+    width:1000px ;
+    height:550px ;
+    padding: 20px 2px;
+    border-radius: 55px 55px 55px 55px;
+  }
+
+  .main_container2{
+    display: flex;
+  }
+
+  .mid_container2{
+    display: flex;
+    font-size: 25px;
+    color: #003b95;
+    padding: 85px 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
