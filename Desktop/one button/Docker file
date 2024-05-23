@@ -1,0 +1,9 @@
+#Use python (version) container 
+FROM python: strectch
+
+#Set working directory to /app
+
+
+#copy current directory contents into the container
+
+#install the dependencies
